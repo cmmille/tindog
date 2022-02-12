@@ -1,0 +1,142 @@
+/* Sections */
+body{
+    font-family: 'Montserrat', 'sans-serif';
+    text-align: center;
+}
+.colored-section{
+    background-color: #ff4c68;
+    color: white;
+}
+.white-section{
+    background-color: #fff;
+    color: black;
+}
+/* Headers */
+.header-text{
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 1.5;
+}
+
+/* Title */
+#title{
+    text-align: left;
+}
+@media (max-width: 768px) {
+    #title {
+        text-align: center;
+    }
+}
+.title-icon{
+    font-size: 10rem;
+    text-align: center;
+    line-height: 0;
+    padding: 3% 0;
+    margin: auto;
+}
+
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+
+/* Bootstrap selectors */
+.container-fluid{
+    padding: 3% 12%;
+}
+.navbar{
+    padding-bottom: 4.5vh;
+    font-size: 1rem;
+}
+.navbar-brand{
+    font-size: 1.75rem;
+    font-family: 'Ubuntu', 'sans-serif';
+    font-weight: 400;
+}
+.navbar-item{
+    padding: 0 18px;
+}
+.navbar-link{
+    font-weight: 100;
+}
+
+
+/* Features */
+#features{
+    padding: 10vh 10vw;
+}
+h3{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.features-icon{
+    color: #fa8070;;
+    font-size: 3rem;
+    margin: 1.5rem;
+}
+.features-icon:hover{
+    color: #ff4c68;
+}
+
+/* Testimonials and Press */
+#testimonials{
+    background-color: #fa8070;
+}
+h2 {
+    font-weight: 600;
+    line-height: 2.5rem;
+}
+.testimonial-img{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px
+}
+.carousel-item{
+    padding: 10vh 10vw;
+}
+#press{
+    background-color: #fa8070;
+    padding-bottom: 3%;
+}
+.press-logo{
+    width: 15%;
+    margin: 20px 
+
+}
+
+/* Prices */
+#pricing{
+    padding: 10vh 10vw;
+}
+.priceCard-header{
+    background-color: #fa8070;
+    color: white;
+    font-weight: 600;
+}
+.priceButton{
+    background-color: #ff4c68;
+    color: white;
+    width: 100%;
+}
+.priceButton:hover{
+    background-color: black;
+    color: white;
+}
+.priceCard-col{
+    padding: 5% 2% 0;
+}
+
+/* Call to action */
+#cta{
+    padding: 5vh 5vw 0;
+}
+.cta-heading{
+    font-weight: 900;
+}
+
+/* Footer */
+#footer{
+    padding: 10px;
+}
+.socialIcon{
+    margin: 10px;
+}
